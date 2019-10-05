@@ -1,10 +1,15 @@
 import React from 'react';
 
-class Footer extends React.Component{
-    render(){
-        return(
+class Footer extends React.Component {
+    render() {
+        return (
 
-            <h3>This is Footer !</h3>
+            <div className="page-footer font-small blue">
+                <div class="footer-copyright text-center py-3">© 2019 Copyright:
+    <a href="#"> KernelStack.com</a>
+                </div>
+
+            </div>
 
         );
     }

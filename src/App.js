@@ -7,8 +7,8 @@ function App() {
   return (
     <div className="App">
       <Header />
-      welcome to the react!
-    <Footer />
+
+      <Footer />
     </div>
   );
 }
